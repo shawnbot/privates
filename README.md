@@ -35,10 +35,16 @@ The module exports the following methods:
 
 ### <a name="set"></a> `set(owner, key, value)`
 Creates a private key/value pair associated with the `owner` object or literal.
-The `key` can also be any object or literal, though if you're passing user or
-otherwise unsanitized input to this function, you may wish to coerce keys to
-strings to ensure that subsequent calls to [get()](#get) will return the
-correct value.
+
+**Note:** The `key` can also be any object or literal, though if you're passing
+user or otherwise unsanitized input to this function, you may wish to coerce
+keys to strings to ensure that subsequent calls to [get()](#get) will return
+the correct value:
+
+```js
+privates.set(obj, 1, 'foo');
+privates.get(obj, '1'); // undefined
+```
 
 ### <a name="get"></a> `get(owner, key)`
 Returns the value of named `key` associated with the `owner` object or literal
