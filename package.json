@@ -1,6 +1,6 @@
 {
   "name": "privates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set and get private variables with weak maps",
   "main": "index.js",
   "scripts": {
