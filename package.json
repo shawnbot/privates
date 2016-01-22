@@ -1,0 +1,30 @@
+{
+  "name": "privates",
+  "version": "1.0.0",
+  "description": "Set and get private variables with weak maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnbot/privates.git"
+  },
+  "keywords": [
+    "private",
+    "weak",
+    "map"
+  ],
+  "author": "Shawn Allen <shawn.allen@hush.com>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/shawnbot/privates/issues"
+  },
+  "homepage": "https://github.com/shawnbot/privates#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "weakmap": "0.0.6"
+  }
+}
