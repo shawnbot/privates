@@ -56,3 +56,5 @@ Deletes the value of named `key` associated with the `owner` object or literal.
 ### <a name="deleteAll"></a> `deleteAll(owner)`
 Removes all of the values associated with the `owner` object or literal.
 
+
+[WeakMap]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap
